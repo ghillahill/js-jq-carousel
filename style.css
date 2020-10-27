@@ -13,11 +13,22 @@ body {
 }
 
 .cicle-next, .cicle-prev {
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: 20px;
 }
 
 i.fas.fa-arrow-left, i.fas.fa-arrow-right {
     font-size: 35px;
+}
+
+i.fas.fa-arrow-left:hover, i.fas.fa-arrow-right:hover {
+    font-size: 40px;
 }
 
 .container {

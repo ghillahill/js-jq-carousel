@@ -8,5 +8,4 @@ $(document).ready(function () {
         $('.slider').find('div.active').prev().addClass('active');
         $('.slider').find('div.active').next().removeClass('active');
     });
-
 });
